@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7efe7;
+    color: #555 !important;
+}
+
+#login_logo,
+#reg_logo{
+    width: 32%;
+    height: 32%;
+    border-radius: 5%;
+    margin-left: 35%;
+}
+
+h2 {
+    text-align: center;
+}
+
+input[type=text],
+input[type=password],
+input[type= email] {
+    width: 100%;
+    padding: 2% 4%;
+    margin: 2% 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+
+#pickone,#date,#members{
+    display: block;
+    padding: 2% 4%;
+    margin: 2% 0;
+}
+
+button,#delete_btn,.btn {
+    background-color: #555 !important;
+    color: white;
+    padding: 2% 4%;
+    margin-top: 3%;
+    margin-left: 25%;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 5%;
+    font-weight: bold;
+    font-size: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+#edit_btn,#delete_btn{
+    width: 35%;
+    margin-left: 35%;
+}
+
+button:hover,#delete_btn:hover{
+    opacity: 0.8;
+}
+
+.loginContainer, .regContainer,.profileContainer{
+    padding: 2%;
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #eac4ab;
+}
+.bookContainer{
+    padding: 2%;
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #eac4ab;
+}
+#card_container{
+    padding: 2%;
+    margin: auto;
+    margin-top: 5%;
+    width: 80%;
+    border-radius: 5px;
+    background-color: #eac4ab;
+}
+
+.card{
+    display: inline-block !important;
+    width: 80%;
+    margin: 5%;
+}
+
+.card-text{
+    text-align: center;
+}
+
+#topics{
+    color: blue;
+}
+
+span.password {
+    float: right;
+    padding-top: 2%;
+}
+
+.regLink {
+    display: block;
+    text-align: center;
+    margin-top: 2%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.regLink:hover {
+    opacity: 0.8;
+    font-size: 80%;
+}
+
+
+@media screen and (max-width: 300px) {
+    span.password {
+        display: block;
+        float: none;
+    }
+}
+@media only screen and (max-width: 990px) {
+    #logout_btn{
+        margin-left: 0px;
+    }
+    .card{
+        width: 20%;
+        margin: 0;
+    }
+    
+    
+ }
